@@ -22,8 +22,6 @@ const ScrollTOContact = ()=>{
   return (
     <div className=" fixed bg-sr w-full top-0 left-0 z-50">
       <div className="w-full flex items-center justify-center h-full">
-      {/* <div> <a className="navbar-brand" href="#" style = {{color:"white"}}>IH</a></div> */}
-    
         <div className="grid grid-cols-4 gap-4 items-center">
           <div onClick={scrollToHome} className={(scrollPosition > -1 && scrollPosition < 749) ? "cursor-pointer py-3 text-tr border-b-2 border-tr font-bold h-full flex items-center justify-center": "cursor-pointer py-3 hover:border-b-2 hover:border-tr text-gray-300 font-bold h-full flex items-center justify-center"}>Home</div>
           <div onClick={()=>scrollToAbout()} className={(scrollPosition > 750 && scrollPosition < 1700) ? "cursor-pointer py-3 text-tr border-b-2 border-tr font-bold h-full flex items-center justify-center": "cursor-pointer py-3 hover:border-b-2 hover:border-tr text-gray-300 font-bold h-full flex items-center justify-center"}>About</div>
