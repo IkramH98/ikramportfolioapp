@@ -25,6 +25,16 @@ const About = () => {
             coming across The School of Code; their up-to-date curriculum, constant support and accessibility unleashed contentment, 
             motivation and hope in my future and passion.
           </p>
+          <p className=" font-medium text-font text-lg pt-4 w-96">
+            I have always had an immense enthusiasm for coding, however I believed there was no way of embarking that journey after my degree;
+            coming across The School of Code; their up-to-date curriculum, constant support and accessibility unleashed contentment, 
+            motivation and hope in my future and passion.
+          </p>
+          <p className=" font-medium text-font text-lg pt-4 w-96">
+            I have always had an immense enthusiasm for coding, however I believed there was no way of embarking that journey after my degree;
+            coming across The School of Code; their up-to-date curriculum, constant support and accessibility unleashed contentment, 
+            motivation and hope in my future and passion.
+          </p>
        
         </div>
       </div>

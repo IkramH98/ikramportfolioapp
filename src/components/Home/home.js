@@ -1,18 +1,9 @@
 import React from "react";
 //import { Typer } from "react-typetool";
 import Typed from "react-typed"
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
 import "./home.css"
-import {
-  MoveDirection,
-  OutMode,
-  MoveType as PolygonMaskMoveType,
-} from "react-particles-js";
-// import hero1 from "../../photos/hero bg1.png";
-// import hero2 from "../../photos/hero bg 2.png";
-// import hero3 from "../../photos/hero bg 3.png";
-// import hero4 from "../../photos/hero bg 4.png";
-// import hero5 from "../../photos/hero 6.png";
+
 import pic from "../../photos/image.png";
 
 const Home = () => {
@@ -21,12 +12,8 @@ const Home = () => {
       <div className="w-full ">
         <div className="container overflow-hidden">
           <div className="particles-canvas-el ">
-            {/* <img src={hero1} alt="" />
-            <img src={hero2} alt="" />
-            <img src={hero3} alt="" />
-            <img src={hero4} alt="" />
-            <img src={hero5} alt="" /> */}
-            <Particles
+         
+            {/* <Particles
     params={{
 	    particles: {
 	        number: {
@@ -81,7 +68,7 @@ const Home = () => {
 	            }
 	        }
 	    }
-	}} />
+	}} /> */}
             {/* <Particles
     params={{
       particles:{
@@ -103,7 +90,7 @@ const Home = () => {
        
       }
     }} /> */}
-     <Particles
+     {/* <Particles
     params={{
 	    particles: {
 	        number: {
@@ -130,7 +117,7 @@ const Home = () => {
 	            }
 	        }
 	    }
-	}} />
+	}} /> */}
           </div>
         </div>
       </div>

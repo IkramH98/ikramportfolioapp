@@ -43,6 +43,23 @@ const Projects = () => {
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}
                 alt=""
               />
+              
+            </a>
+            <a target="_blank" href="https://github.com/SchoolOfCode/w8_d5-hackathon_react-app-with-api-data-room-60.git" className="w-44 h-44 overflow-hidden rounded-full">
+              <img
+                src={project}
+                style={{ height: "100%", width: "100%", objectFit: "cover" }}
+                alt=""
+              />
+              
+            </a>
+            <a target="_blank" href="https://github.com/SchoolOfCode/w8_d5-hackathon_react-app-with-api-data-room-60.git" className="w-44 h-44 overflow-hidden rounded-full">
+              <img
+                src={project}
+                style={{ height: "100%", width: "100%", objectFit: "cover" }}
+                alt=""
+              />
+              
             </a>
           </div>
         </div>
