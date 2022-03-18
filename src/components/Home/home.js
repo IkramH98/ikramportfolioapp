@@ -1,7 +1,7 @@
 import React from "react";
 //import { Typer } from "react-typetool";
 import Typed from "react-typed"
-// import Particles from "react-particles-js";
+import Particles from "react-particles-js";
 import "./home.css"
 
 import pic from "../../photos/image.png";
@@ -12,8 +12,8 @@ const Home = () => {
       <div className="w-full ">
         <div className="container overflow-hidden">
           <div className="particles-canvas-el ">
-         
-            {/* <Particles
+      
+            <Particles
     params={{
 	    particles: {
 	        number: {
@@ -54,7 +54,7 @@ const Home = () => {
           type: "star",
           stroke: {
             width: 0.5,
-            color: "#CF9FFF",
+            color: "#A9BD93",
           }
         },
 
@@ -68,7 +68,7 @@ const Home = () => {
 	            }
 	        }
 	    }
-	}} /> */}
+	}} />
             {/* <Particles
     params={{
       particles:{

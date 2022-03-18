@@ -27,26 +27,26 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-3 gap-2 mt-5">
           <a
-            href=""
+            href="https://github.com/IkramH98"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-font text-pr p-2 rounded-full"
+            className="bg-font hover:bg-tr text-pr p-2 rounded-full"
           >
             <AiFillGithub className=" w-7 h-7 cursor-pointer" />
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/ikram-hassan-aa5287bb"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-font text-pr p-2 rounded-full"
+            className="bg-font hover:bg-tr text-pr p-2 rounded-full"
           >
             <AiFillLinkedin className=" w-7 h-7 cursor-pointer" />
           </a>
           <a
-            href=""
+            href="https://twitter.com/ikram_ayax"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-font text-pr p-2 rounded-full"
+            className="bg-font hover:bg-tr text-pr p-2 rounded-full"
           >
             <AiFillTwitterCircle className=" w-7 h-7 cursor-pointer" />
           </a>
