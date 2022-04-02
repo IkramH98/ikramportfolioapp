@@ -12,7 +12,7 @@ const Home = () => {
       <div className="w-full ">
         <div className="container overflow-hidden">
           <div className="particles-canvas-el ">
-      
+{/*       
             <Particles
     params={{
 	    particles: {
@@ -68,7 +68,7 @@ const Home = () => {
 	            }
 	        }
 	    }
-	}} />
+	}} /> */}
             {/* <Particles
     params={{
       particles:{
