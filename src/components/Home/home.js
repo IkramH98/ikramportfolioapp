@@ -12,7 +12,7 @@ const Home = () => {
       <div className="w-full ">
         <div className="container overflow-hidden">
           <div className="particles-canvas-el ">
-{/*       
+{      
             <Particles
     params={{
 	    particles: {
@@ -40,84 +40,8 @@ const Home = () => {
 	            }
 	        }
 	    }
-	}} />
-             <Particles
-    params={{
-	    particles: {
-	        number: {
-	            value: 50
-	        },
-	        size: {
-	            value: 3
-	        },
-          shape: {
-          type: "star",
-          stroke: {
-            width: 0.5,
-            color: "#A9BD93",
-          }
-        },
+	}} /> }
 
-	    },
-     
-	    interactivity: {
-	        events: {
-	            onhover: {
-	                enable: true,
-	                mode: "repulse"
-	            }
-	        }
-	    }
-	}} /> */}
-            {/* <Particles
-    params={{
-      particles:{
-        number: {
-          value: 30,
-          density: {
-            enable: true,
-            value_area: 900,
-
-          }
-        },
-        shape: {
-          type: "star",
-          stroke: {
-            width: 6,
-            color: "#CF9FFF",
-          }
-        }
-       
-      }
-    }} /> */}
-     {/* <Particles
-    params={{
-	    particles: {
-	        number: {
-	            value: 50
-	        },
-	        size: {
-	            value: 3
-	        },
-          shape: {
-          type: "star",
-          stroke: {
-            width: 0.5,
-            color: "#CF9FFF",
-          }
-        },
-
-	    },
-     
-	    interactivity: {
-	        events: {
-	            onhover: {
-	                enable: true,
-	                mode: "repulse"
-	            }
-	        }
-	    }
-	}} /> */}
           </div>
         </div>
       </div>

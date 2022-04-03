@@ -1,11 +1,11 @@
-import React from "react";
-import Particles from "react-particles-js";
-import particlesConfig from "../config/particle-config";
+// import React from "react";
+// import Particles from "react-particles-js";
+// import particlesConfig from "../config/particle-config";
 
-export default function ParticlesBackground(){
-    return (
-        <Particles params={particlesConfig}/>
-    )
-}
+// export default function ParticlesBackground(){
+//     return (
+//         <Particles params={particlesConfig}/>
+//     )
+// }
 
 
