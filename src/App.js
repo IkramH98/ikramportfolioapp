@@ -1,5 +1,4 @@
 import React from "react";
-import Particles from "react-particles-js";
 import About from "./components/About/About"
 import Home from "./components/Home/home";
 import Footer from "./components/layout/Footer";

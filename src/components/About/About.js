@@ -11,29 +11,26 @@ const About = () => {
   
           <p className=" font-medium text-font text-lg pt-4 w-96">
       
-          Hey!, I’m Ikram, I am a 23 year old former English Secondary Teacher.
+          Hey!, I’m Ikram, 
            
           </p>
           <p className=" font-medium text-font text-lg pt-4 w-96">
-          Before pursuing a career in tech, I felt fairly stagnant in my teaching career. 
-          Despite learning and meeting a lot of great people, I just wasn’t fully satisfied. 
-           
+     
         
           </p>
           <p className=" font-medium text-font text-lg pt-4 w-96">
-            I have always had an immense enthusiasm for coding, however I believed there was no way of embarking that journey after my degree;
-            coming across The School of Code; their up-to-date curriculum, constant support and accessibility unleashed contentment, 
-            motivation and hope in my future and passion.
+          The enjoyment of web development stems from it's ability to satisfy my innate creativity. Web development allows me to easily 
+          communicate ideas into digital form and get results back instantaneously. I can still remember the first time I created an HTML page 
+          and opened it in a browser; the thrill and enjoyment that came with it. As a result, I became highly passionate about coding 
+          and have continued to be so ever since. It's certainly not without its ups and downs however, if you love what you do and are able 
+          to add value to others, the results are far more rewarding than anything else
           </p>
           <p className=" font-medium text-font text-lg pt-4 w-96">
-            I have always had an immense enthusiasm for coding, however I believed there was no way of embarking that journey after my degree;
-            coming across The School of Code; their up-to-date curriculum, constant support and accessibility unleashed contentment, 
-            motivation and hope in my future and passion.
+            I have always enjoyed the sanctity of coding, it's been infiltrating and ambivent. I have enjoyed the front-end side of creating 
+            code, most importantly the dom selector 
           </p>
           <p className=" font-medium text-font text-lg pt-4 w-96">
-            I have always had an immense enthusiasm for coding, however I believed there was no way of embarking that journey after my degree;
-            coming across The School of Code; their up-to-date curriculum, constant support and accessibility unleashed contentment, 
-            motivation and hope in my future and passion.
+          
           </p>
        
         </div>
