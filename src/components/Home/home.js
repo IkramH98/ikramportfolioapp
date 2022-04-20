@@ -41,6 +41,7 @@ const Home = () => {
 	        }
 	    }
 	}} /> }
+  
 
           </div>
         </div>
@@ -68,9 +69,9 @@ const Home = () => {
             loop
         />
         </p>
-        <p className=" font-medium text-font text-lg pt-4 w-96">
-       I love learning new skills, possess a strong problem-solving mindset, 
-       thrive in collaborative environments, and have a proven ability to adapt.
+        <p className=" font-medium text-font text-lg pt-20 w-71">
+         I am an aspiring Software Developer, in a quest for a role that'll enable me to enhance my technical capabilites in
+         a welcoming and collaborative environment !
        
           </p>
         {/* <p className=" font-medium text-font text-lg pt-6 w-96">
