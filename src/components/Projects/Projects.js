@@ -50,7 +50,7 @@ const Projects = () => {
          Here are some projects that I've completed.. 
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-4 mt-12 gap-5">
-            <a target="_blank" rel="noreferrer" href="" className="w-44 h-44 overflow-hidden rounded-full">
+            <a target="_blank" rel="noreferrer" href="https://github.com/IkramH98/Todo-List.git" className="w-44 h-44 overflow-hidden rounded-full">
               <img
                 src={project}
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}
@@ -58,14 +58,14 @@ const Projects = () => {
               />
       
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/IkramH98/Todo-List.git" className="w-44 h-44 overflow-hidden rounded-full">
+            <a target="_blank" rel="noreferrer" href="https://github.com/IkramH98/back-end-practise.git" className="w-44 h-44 overflow-hidden rounded-full">
               <img
                 src={project2}
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}
                 alt="back-end App"
               />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/IkramH98/back-end-practise.git" className="w-44 h-44 overflow-hidden rounded-full">
+            <a target="_blank" rel="noreferrer" href="https://62600aca80bddc00082232ee--cozy-gingersnap-cd218d.netlify.app/" className="w-44 h-44 overflow-hidden rounded-full">
               <img
                 src={project1}
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}
