@@ -1,5 +1,5 @@
 import React from "react";
-import project from "../../photos/project.jpeg";
+import project from "../../photos/project.jpeg"
 import project1 from "../../photos/project1.jpeg";
 import project2 from "../../photos/project2.jpeg";
 import salveg from "../../photos/salveg pic.png"
@@ -50,11 +50,11 @@ const Projects = () => {
          Here are some projects that I've completed.. 
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-4 mt-12 gap-5">
-            <a target="_blank" rel="noreferrer" href="https://github.com/IkramH98/Todo-List.git" className="w-44 h-44 overflow-hidden rounded-full">
+            <a target="_blank" rel="noreferrer" href="https://6266a23e646e5d0c1d2e69c7--joyful-wisp-cf281d.netlify.app/" className="w-44 h-44 overflow-hidden rounded-full">
               <img
                 src={project}
                 style={{ height: "100%", width: "100%", objectFit: "cover" }}
-                alt="To do List App"
+                alt="ImageGallery App"
               />
       
             </a>
