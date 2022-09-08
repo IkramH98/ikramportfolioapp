@@ -1,6 +1,6 @@
 import React from "react";
 //import { Typer } from "react-typetool";
-import Typed from "react-typed"
+// import Typed from "react-typed"
 // import Particles from "react-particles-js";
 import "./home.css"
 
@@ -62,12 +62,12 @@ const Home = () => {
           />
         </div>
         <p className=" font-medium text-font text-lg pt-3">
-        <Typed className="typed-text"
+        {/* <Typed className="typed-text"
             strings={["Software engineer 💻", "Tech enthusiast ✨" , "Educator 📚" ]}
             typeSpeed={40}
             backSpeed={60}
             loop
-        />
+        /> */}
         </p>
         <p className=" font-medium text-font text-lg pt-20 w-71">
          I am an aspiring Software Developer, in a quest for a role that'll enable me to enhance my technical capabilites in
