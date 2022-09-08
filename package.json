@@ -18,8 +18,7 @@
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "react-tsparticles": "^2.2.4",
-    "react-typetool": "^2.0.3",
+   
     "web-vitals": "^2.1.4"
   },
   "scripts": {
