@@ -1,17 +1,33 @@
 import React from "react";
-//import { Typer } from "react-typetool";
+import { Typer } from "react-typetool";
 // import Typed from "react-typed"
-// import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
+import loadFull  from "react-tsparticles";
+import { useCallback } from "react";
 import "./home.css"
 
 import pic from "../../photos/image.png";
 
 const Home = () => {
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+}, []);
+
+const particlesLoaded = useCallback(async (container) => {
+    await console.log(container);
+}, []);
+
   return (
     <div className="w-full relative min-h-screen pt-20">
       <div className="w-full ">
         <div className="container overflow-hidden">
           <div className="particles-canvas-el ">
+
+          <Particles id="tsparticles" url="http://foo.bar/particles.json" init={particlesInit} loaded={particlesLoaded} />
 {/* {      
             <Particles
     params={{
@@ -40,7 +56,8 @@ const Home = () => {
 	            }
 	        }
 	    }
-	}} /> } */}
+	}} 
+  /> } */}
   
 
           </div>
